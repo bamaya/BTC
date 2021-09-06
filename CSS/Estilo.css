@@ -26,16 +26,15 @@ footer{
 .menu{
 	padding: 0;
 	background-color: #DE8B05;
-	
 	position: fixed;
+	width: 98%;
 }
 
 .menu li a{
-	padding: 10px;
+	padding: 25px;
 }
 .menu li{
 	display: inline-block;
-	text-align: center;
 }
 
 .menu li a:hover{
