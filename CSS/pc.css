@@ -2,7 +2,7 @@
 nav{
  	width: 100%; /* 960/960*=100%*/
  	font-size: 1.4em;
-}
+ }
 nav ul{
  	list-style: none;
  	margin: 0px 0px 65px 0px;
@@ -28,6 +28,10 @@ nav ul li a.hover{
 #imgDesc{
  	overflow: auto;
  	width: 100%;
+ }
+ #parrafouno{
+
+	margin-top: 140px;
  }
 
 
