@@ -1,0 +1,23 @@
+/* MENU */
+nav{
+ 	width: 100%; /* 960/960*=100%*/
+ 	font-size: 1.2em;
+}
+nav ul{
+ 	list-style: none;
+ 	font-size: 1.2em;
+}
+nav ul li{
+ 	float: left;
+ 	margin: 0px -15px;
+}
+nav ul li a {
+ 	text-decoration: none;
+ 	display: block;
+ 	color: white;
+ 	transition: color 1s, transform 3s;
+}
+nav ul li a.hover{
+ 	color: #AAA;
+ 	transform:scale(1.3);
+}

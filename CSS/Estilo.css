@@ -10,41 +10,56 @@ header{
 	width: 100%;
 	margin: auto;
 	top: 0;
-	height: 150px;
+	height: 115px;
+}
+footer{
+ 	text-align: center;
+ 	margin: 0;
+ 	font-size: .9em;
+ 	line-height: 2;
+ 	clear: both;
+ 	background-color: #464d52;
+ 	color: white;
+ 	width: 100%;
 }
 
 .menu{
-	list-style: none;
 	padding: 0;
-	background: #088BAF;
-	width: 100%;
-	margin: auto;
+	background-color: #DE8B05;
+	margin-top: 50px;
 	position: fixed;
 }
 
 .menu li a{
-	text-decoration: none;
-	color: white;
-	padding: 38px;
-	display: block;
-
+	padding: 10px;
 }
 .menu li{
 	display: inline-block;
 	text-align: center;
 }
+
 .menu li a:hover{
-	background: #08AF93;
+	background: #FEB134;
 }
-.imagn{
-	width: 90%;
-	margin: auto;
+.boton{
+ 	background-color:#DE8B05;
+ 	padding: 7px;
+ 	margin-top: 10px;
+ 	border-radius: 5px;
+ 	color: white;
+ 	font-size: 0.9em;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	cursor: pointer;
+ 	transition: background 3s, color 1s;
 }
-.simbolospatrios{
-	padding:0;
-	margin: auto;
+.boton:hover{
+ 	background: #5077c7;
 }
-.mapa{
-	padding:0;
-	margin: auto;
+.boton a{
+ 	text-decoration: none;
+ 	color: white;
+ 	width: 100%;
+ 	margin: 0px;
+ 	display: block;
 }
