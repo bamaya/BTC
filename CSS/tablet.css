@@ -21,3 +21,11 @@ nav ul li a.hover{
  	color: #AAA;
  	transform:scale(1.5);
 }
+#imgDesc img{
+ 	width: 100%; /* 600/960= 62.5% */
+ 	height: auto;
+ }
+#imgDesc{
+ 	overflow: auto;
+ 	width: 100%;
+ }
