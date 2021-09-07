@@ -1,6 +1,7 @@
 body{
 	font-family: arial;
 	background: #e8e8e8;
+	text-align: justify;
 
 }
 header{
@@ -10,7 +11,8 @@ header{
 	width: 100%;
 	margin: auto;
 	top: 0;
-	height: 130px;
+	height: 150px;
+	overflow: hidden;
 }
 footer{
  	text-align: center;
@@ -28,6 +30,7 @@ footer{
 	background-color: #DE8B05;
 	position: fixed;
 	width: 98%;
+	overflow: hidden;
 }
 
 .menu li a{
